@@ -121,19 +121,25 @@
     @apply bg-background text-foreground;
   }
 }
+
 html {
-    overflow: -moz-scrollbars-none;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 html::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
+  width: 0px;
+  background: transparent;
 }
 
 body {
+<<<<<<< HEAD
     overflow-x: hidden;
 }
 
 
+=======
+  overflow-x: hidden;
+}
+>>>>>>> 7d90b14834ffe956f9fb20dbfdb78fa983dfad19
