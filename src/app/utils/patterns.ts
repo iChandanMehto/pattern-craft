@@ -3254,44 +3254,5 @@ export const gridPatterns: Pattern[] = [
   {/* Your Content/Components */}
 </div>`,
 },
-{
-  id: "SunSet",
-  name: "Sun Set",
-  category: "effects",
-  badge: "New",
-  style: {
-    background:
-      "radial-gradient(circle at bottom, #ff9e80 0%, #ff6e40 25%, #f44336 50%, #6a1b9a 80%, #0d0d0d 100%)",
-  },
-  code: `<div className="min-h-screen w-full relative overflow-hidden">
-  {/* Sunset Gradient Sky */}
-  <div
-    className="absolute inset-0 z-0"
-    style={{
-      background:
-        "radial-gradient(circle at bottom, #ff9e80 0%, #ff6e40 25%, #f44336 50%, #6a1b9a 80%, #0d0d0d 100%)",
-    }}
-  />
 
-  {/* Sun Glow */}
-  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-10">
-    <div className="w-[250px] h-[250px] bg-gradient-to-t from-yellow-400 via-orange-500 to-transparent rounded-full blur-3xl opacity-70 animate-pulse" />
-  </div>
-
-  {/* Floating Warm Clouds */}
-  <div className="absolute top-1/3 left-1/4 w-64 h-32 bg-pink-300/20 rounded-full blur-3xl animate-pulse"></div>
-  <div className="absolute top-1/4 right-1/3 w-72 h-40 bg-orange-300/20 rounded-full blur-3xl animate-ping"></div>
-  <div className="absolute bottom-1/4 right-1/4 w-64 h-32 bg-red-400/20 rounded-full blur-3xl animate-pulse"></div>
-
-  {/* Optional Foreground Silhouette */}
-  <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black/90 to-transparent z-20"></div>
-
-  {/* Your Content/Components */}
-  <div className="relative z-30 flex items-center justify-center min-h-screen text-white font-semibold text-4xl">
-    Sun Set Effect 
-  </div>
-</div>`,
-}
-
-,
 ];
